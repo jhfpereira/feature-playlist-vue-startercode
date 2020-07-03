@@ -8,6 +8,7 @@
     "dev:css": "node-sass --source-map true src/styles/scss src/styles/scss/main.scss -o src/styles/",
     "watch:sass": "node-sass --source-map true --watch src/styles/scss src/styles/scss/main.scss -o src/styles/",
     "watch": "npm-run-all --parallel dev:css watch:*",
+    "serve": "gulp serve",
     "//": " --- BUILD (GENERIC) --- ",
     "build:clean": "npm run clean && npm run mkdirs",
     "build:copy": "npm run copy",
