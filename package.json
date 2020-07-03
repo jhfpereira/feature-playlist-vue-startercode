@@ -36,6 +36,8 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "findit": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
     "howler": "^2.2.0",
     "mkdirp": "^1.0.4",
     "node-sass": "^4.14.1",
