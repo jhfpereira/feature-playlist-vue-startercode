@@ -29,15 +29,12 @@ const StoreStructure = {
 	actions: {
 		playSong({ commit }, song) {
 			commit('mutateSelectedSong', song);
+			commit('mutateIsPlaying', true);
 		},
 
 		stopSong({ commit }) {
 			commit('mutateSelectedSong', null);
 			commit('mutateIsPlaying', false);
-		},
-
-		setIsPlaying({ commit, state }, isPlaying) {
-			commit('mutateIsPlaying', isPlaying);
 		},
 
 		prevSong({ state, commit }) {

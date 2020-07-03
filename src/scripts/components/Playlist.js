@@ -32,7 +32,7 @@ export default {
 		},
 
 		selectedSong() {
-			return null;
+			return this.$store.state.audioplayer.selectedSong;
 		},
 	},
 

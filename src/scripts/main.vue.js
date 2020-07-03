@@ -1,5 +1,4 @@
 
-/* Vue.js u. Vuex Imports */
 import Vue from 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.esm.browser.js';
 import Vuex from 'https://cdnjs.cloudflare.com/ajax/libs/vuex/3.5.1/vuex.esm.browser.js';
 
@@ -24,6 +23,15 @@ new Vue({
 		Playlist,
 	},
 }).$mount(document.querySelector('.playlist'));
+
+
+/* Audioplayer */
+new Vue({
+	store: store, /* inject */
+	components: {
+		Audioplayer,
+	},
+}).$mount(document.querySelector('.audioplayer-wrap'));
 
 
 store.dispatch('loadPlaylist', './json/songs.json');
