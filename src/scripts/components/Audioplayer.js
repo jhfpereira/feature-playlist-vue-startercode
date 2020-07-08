@@ -48,17 +48,10 @@ export default {
       seekPos: 0,
       duration: 0,
       interval: null,
-
-      vorname: 'Peter',
-      nachname: 'Parker',
     };
   },
 
   computed: {
-    vollername() {
-      return `${this.vorname} ${this.nachname}`;
-    },
-
     isPlaying() {
       return this.$store.state.audioplayer.isPlaying;
     },
