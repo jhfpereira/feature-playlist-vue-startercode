@@ -60,7 +60,7 @@ Im selben Rahmen sind auch Mutation- und Action-Funktionen zu schreiben, um übe
 Überlegen Sie welche Informationen die Audioplayer-Komponente benötigt, um den Song abspielen und Song-Metadaten ausgeben zu können.
 
 
-Sofern Sie sich nur auf die Audioplayer-Komponente konzentrieren möchten, finden sie eine grob ausgearbeiten Store-Struktur in unter `last-resort/store.js`.
+Sofern Sie sich nur auf die Audioplayer-Komponente konzentrieren möchten, finden sie eine grob ausgearbeite Store-Struktur unter `last-resort/store.js`.
 
 
 ## Step 2: Einbindung der Audioplayer-Komponente und initiale Ausarbeitung
